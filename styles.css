@@ -1,2 +1,14 @@
-
+.holder{
+	background-color:blue;
+	width:200px;
+	height:200px;
+	display:grid;
+	grid-template-columns:repeat(2,auto);
+	grid-template-rows:repeat(2,auto);
+/* 	padding:2px; */
+}
+.holder>div{
+	background-color:yellow;
+	border: 1px solid black;
+}
 /* Your CSS Code here. */
